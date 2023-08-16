@@ -1,0 +1,33 @@
+.home__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn__container {
+    display: flex;
+    right: 1px;
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+Button {
+    background-color: #164B60;
+}
+
+.userText {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.overwrite {
+    background-color: white;
+}

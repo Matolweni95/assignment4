@@ -1,0 +1,64 @@
+.user__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    background-color: blue !important;
+}
+
+.card__holder {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.card {
+    display: flex;
+    width: 626px;
+    justify-content: space-between;
+    height: 106px;
+    background: #FFF;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.card__subcontainer {
+    display: flex;
+    margin-left: 25px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+}
+
+.card__hero {
+    width: 75px;
+    height: 75px;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    margin-left: 15px;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 900px;
+}
+
+.name {
+    opacity: 0.5;
+}
+
+.crud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-right: 25px;
+}
